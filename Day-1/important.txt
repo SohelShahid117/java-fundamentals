@@ -1,0 +1,39 @@
+1.https://youtu.be/4XTsAAHW_Tc?si=IojavH3b6dQOKlj1
+
+2.for compile------->javac Hello.java
+
+4.Data type--->a.primitive,b.non-primitive
+5.primitive=[integer[byte-1byte,short-2byte,int-4bytes,long-8bytes],float[float-4bytes,double-8bytes],character[char-2byte],boolean[boolean]]
+
+6.1byte=8bit
+7.byte----->(-2^7) to (+2^7-1)
+8.short----->(-2^15) to (+2^15-1)
+9.int----->(-2^63) to (+2^63-1)
+10.long----->(-2^127) to (+2^127-1)
+
+***From todays lecture Learnig points are:***
+1.file name & class name both are same
+2.compile the file------->javac Hello.java
+3.run the file----------->java Hello
+4.data are 2 types------->a.primitive,b.non-primitive
+5.primitive data 4 types-->integer,float,character,boolean
+6.integer data 4 types---->byte(1byte),short(2byte),int(4bytes),long(8bytes)
+7.float data 2 types------>float(4bytes),double(8bytes)
+8.character  1 types------>char(2byte)
+9.boolean 1 types--------->boolean
+
+10.type conversion 2 types ------->explicit,implicit type conversion
+11.explicit type conversion is called Widening Casting (automatically):converting a smaller type to a larger type size
+byte -> short -> char -> int -> long -> float -> double
+e.g: 
+byte b5 = 77;
+int a5 = b5;
+System.out.println(a5);  //this is automatically converted
+
+12.implicit type conversion is called Narrowing Casting (manually):converting a larger type to a smaller size type
+double -> float -> long -> int -> char -> short -> byte
+e.g:
+int b6=99;
+// byte a6 = b6;
+byte a6 =(byte) b6;
+System.out.println(a6);
